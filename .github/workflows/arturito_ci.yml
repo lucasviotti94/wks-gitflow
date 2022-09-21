@@ -33,7 +33,7 @@ jobs:
           ${{ runner.os }}-yarn-
 
     - name: Install dependencies
-      run: yarn --prefer-offline
+      run: yarn run test
 
     - name: Check prettier
       run: |
